@@ -28,19 +28,19 @@ console.log(welcomeMarc());
 // result should be 23.8
 
 function calcGrossPrice(a, b) {
-  return a * b;
+  return (a + a * b) / 100;
 }
 
-console.log(calcGrossPrice(20, 1.19));
+console.log(calcGrossPrice(20, 0.19) * 100);
 
 // console.log(calcGrossPrice(40, 0.16));
 // result should be 46.4
 
 function calcGrossPrice(a, b) {
-  return a * b;
+  return (a + a * b) / 100;
 }
 
-console.log(calcGrossPrice(40, 1.16));
+console.log(calcGrossPrice(40, 0.16) * 100);
 
 /**
  * 03) Add Positive Function
