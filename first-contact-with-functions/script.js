@@ -64,13 +64,13 @@ function addPositive(a, b) {
   return a + b;
 }
 
-console.log(addPositive(3, 5));
+console.log(addPositive(3, -5 * -1));
 
 // console.log(addPositive(-1, -8));
 // result2 should be 9
 
 function addPositive(a, b) {
-  return a + b;
+  return Math.abs(a + b);
 }
 
-console.log(addPositive(1, 8));
+console.log(addPositive(-1, -8));
