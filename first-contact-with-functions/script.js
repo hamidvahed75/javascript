@@ -19,7 +19,7 @@ function welcomeMarc() {
 console.log(welcomeMarc());
 
 /**
- * 02) Bruttopreisfunktion
+ * 02) Gross Price Function
  */
 
 // TODO: implement calcGrossPrice function
